@@ -3,4 +3,6 @@ project(BigInt)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(BigInt main.cpp)
+add_executable(BigInt main.cpp
+        BigInt.cpp
+        BigInt.h)
